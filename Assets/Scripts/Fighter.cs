@@ -4,6 +4,7 @@ public class Fighter : MonoBehaviour
 {
   [SerializeField]
    private Animator animator;
+   public Animator Animator => animator;
    [SerializeField]
    private Health health;
    public Health Health => health;
