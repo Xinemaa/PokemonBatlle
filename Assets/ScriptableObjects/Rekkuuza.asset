@@ -17,20 +17,20 @@ MonoBehaviour:
   attacks:
   - name: 'Attack '
     animationName: RAttack 1
-    attackSoundName: 
+    attackSoundName: Rayquaza
     minDamage: 50
     maxDamage: 80
     chargeParticles: {fileID: 8246082397077131961, guid: 14b0959080f768a418841a5fb6c10b89, type: 3}
     attackParticles: {fileID: 5018065454185457113, guid: 050900d2ae483a64488afb2a3b78e572, type: 3}
   - name: AttackRound
     animationName: RAttackRound
-    attackSoundName: 
+    attackSoundName: Rayquaza
     minDamage: 50
     maxDamage: 80
     chargeParticles: {fileID: 8246082397077131961, guid: 14b0959080f768a418841a5fb6c10b89, type: 3}
     attackParticles: {fileID: 5018065454185457113, guid: 050900d2ae483a64488afb2a3b78e572, type: 3}
   chargeTime: 2
-  appearParticles: {fileID: 0}
+  appearParticles: {fileID: 5018065454185457113, guid: 050900d2ae483a64488afb2a3b78e572, type: 3}
   appearSoundName: Rayquaza
   damageSoundName: Rayquaza
   deadSoundName: Rayquaza
