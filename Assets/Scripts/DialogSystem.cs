@@ -8,7 +8,7 @@ public class DialogSystem : MonoBehaviour
    [SerializeField]
    private Text dialogText;
    [SerializeField]
-   private float TimeBetweenWords = 0.25f;
+   private float timeBetweenWords = 0.25f;
    private Animator animator;
    private void Awake()
     {
@@ -28,8 +28,9 @@ public class DialogSystem : MonoBehaviour
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         foreach (char letter in dialog.ToCharArray())
         {
+            SoundManager.instance.Play("TextSound");
             dialogText.text += letter;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(timeBetweenWords);
         }
         yield return new WaitForSeconds(1f);
         animator.Play("Hide", 0, 0f);
