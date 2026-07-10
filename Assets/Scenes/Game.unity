@@ -979,18 +979,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1109506448}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: PlayMusic
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pelea Pokemon 2
-          m_BoolArgument: 0
-        m_CallState: 2
   onDamageTaken:
     m_PersistentCalls:
       m_Calls:
@@ -3187,8 +3175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
   audioPrefix: 
-  audioS: {fileID: 0}
-  musicS: {fileID: 0}
+  audioS: {fileID: 929357207}
+  musicS: {fileID: 1447719242}
   masterMixer: {fileID: 0}
 --- !u!4 &1109506449
 Transform:
@@ -4303,7 +4291,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1107, y: 154.8}
+  m_SizeDelta: {x: 1688.6, y: 186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571791216
 MonoBehaviour:
@@ -4326,12 +4314,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 111
+    m_Font: {fileID: 12800000, guid: 27ef1a5f724ed45489dd9e6c6991c62e, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 112
+    m_MinSize: 3
+    m_MaxSize: 70
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
