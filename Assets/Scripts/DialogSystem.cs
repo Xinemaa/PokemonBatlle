@@ -29,8 +29,8 @@ public class DialogSystem : MonoBehaviour
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         foreach (char letter in dialog.ToCharArray())
         {
-            SoundManager.instance.Play("TextSound");
             dialogText.text += letter;
+            SoundManager.instance.Play("TextSound");
             yield return new WaitForSeconds(timeBetweenWords);
         }
         yield return new WaitForSeconds(1f);
