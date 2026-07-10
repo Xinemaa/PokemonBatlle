@@ -24,6 +24,7 @@ public class DialogSystem : MonoBehaviour
     {
         dialogText.text = "";
         animator.Play("Show", 0, 0f);
+        SoundManager.instance.Play("ShowText");
         yield return null;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         foreach (char letter in dialog.ToCharArray())
